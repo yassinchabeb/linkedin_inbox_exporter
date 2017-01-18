@@ -11,7 +11,7 @@ list = list + "\n" +
 (personnes[i].getElementsByClassName('name'))[0].innerText
 
 ////////////////////// LAST MESSAGES : uncomment next line if you want to show messages /////////
-//+ " : (dates[i].getElementsByClassName('summary'))[0].innerText
+//+ " : " + (dates[i].getElementsByClassName('summary'))[0].innerText
 
 };
 console.log(list);
